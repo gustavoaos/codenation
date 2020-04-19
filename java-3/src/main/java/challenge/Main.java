@@ -1,14 +1,22 @@
 package challenge;
 
+import com.opencsv.CSVReader;
+import com.opencsv.bean.CsvToBean;
+import com.opencsv.bean.CsvToBeanBuilder;
+import com.opencsv.bean.HeaderColumnNameMappingStrategy;
+
 import java.io.File;
+import java.io.FileReader;
+import java.io.IOException;
 import java.net.URL;
+import java.util.Collections;
 import java.util.List;
 import java.util.Map;
 
 public class Main {
 
 	private final String resourceFileName = "data.csv";
-	File resourceFile = this.getFileFromResources(resourceFileName);
+	List<SoccerPlayer> soccerPlayers = this.getSoccerPlayersList(this.getFileFromResources(resourceFileName));
 
 	// Quantas nacionalidades (coluna `nationality`) diferentes existem no arquivo?
 	public int q1() {
@@ -50,6 +58,29 @@ public class Main {
 		URL resource = classLoader.getResource(fileName);
 
         return new File(resource.getFile());
+	}
+
+	// Get List from file
+	private List<SoccerPlayer> getSoccerPlayersList(File file) {
+		List<SoccerPlayer> soccerPlayers = Collections.emptyList();
+
+		try {
+			HeaderColumnNameMappingStrategy<SoccerPlayer> strategy = new HeaderColumnNameMappingStrategy<>();
+			strategy.setType(SoccerPlayer.class);
+			
+			CSVReader reader = new CSVReader(new FileReader(file));
+			CsvToBean<SoccerPlayer> csvToBean = new CsvToBeanBuilder<SoccerPlayer>(reader)
+					.withType(SoccerPlayer.class)
+					.withMappingStrategy(strategy)
+					.withIgnoreLeadingWhiteSpace(true)
+					.build();
+
+			soccerPlayers = csvToBean.parse();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+
+		return soccerPlayers;
 	}
 
 }
