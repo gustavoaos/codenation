@@ -27,7 +27,9 @@ public class DesafioApplication {
 	}
 
 	public static Boolean isFibonacci(Integer number) {
-		return null;
+		List<Integer> fibonacciList = DesafioApplication.fibonacci();
+
+		return fibonacciList.contains(number);
 	}
 
 }
