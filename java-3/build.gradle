@@ -4,6 +4,7 @@ plugins {
 
 dependencies {
     testImplementation 'junit:junit:4.12'
+    compile group: 'com.opencsv', name: 'opencsv', version: '5.1'
 }
 
 repositories {
