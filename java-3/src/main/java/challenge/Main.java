@@ -1,9 +1,14 @@
 package challenge;
 
+import java.io.File;
+import java.net.URL;
 import java.util.List;
 import java.util.Map;
 
 public class Main {
+
+	private final String resourceFileName = "data.csv";
+	File resourceFile = this.getFileFromResources(resourceFileName);
 
 	// Quantas nacionalidades (coluna `nationality`) diferentes existem no arquivo?
 	public int q1() {
@@ -37,6 +42,14 @@ public class Main {
 	// (utilize a coluna `age`)
 	public Map<Integer, Integer> q6() {
 		return null;
+	}
+
+	// get file from classpath, resources folder
+    private File getFileFromResources(String fileName) {
+		ClassLoader classLoader = getClass().getClassLoader();
+		URL resource = classLoader.getResource(fileName);
+
+        return new File(resource.getFile());
 	}
 
 }
