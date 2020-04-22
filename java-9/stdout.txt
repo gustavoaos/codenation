@@ -1,0 +1,349 @@
+Found "C:\Users\gusta\codenation\java-9\.mvn\wrapper\maven-wrapper.jar"
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -------------------< com.challenge:spring-data-ddl >--------------------
+[INFO] Building spring-data-ddl 0.0.1-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:resources (default-resources) @ spring-data-ddl ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ spring-data-ddl ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:testResources (default-testResources) @ spring-data-ddl ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Users\gusta\codenation\java-9\src\test\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ spring-data-ddl ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 12 source files to C:\Users\gusta\codenation\java-9\target\test-classes
+[INFO] /C:/Users/gusta/codenation/java-9/src/test/java/com/challenge/suite/ClassTest.java: C:\Users\gusta\codenation\java-9\src\test\java\com\challenge\suite\ClassTest.java uses unchecked or unsafe operations.
+[INFO] /C:/Users/gusta/codenation/java-9/src/test/java/com/challenge/suite/ClassTest.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.22.2:test (default-test) @ spring-data-ddl ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running com.challenge.suite.ChallengeTestSuite
+15:32:41.272 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/C:/Users/gusta/codenation/java-9/target/classes/
+15:32:41.351 [main] INFO org.reflections.Reflections - Reflections took 79 ms to scan 1 urls, producing 5 keys and 22 values 
+15:32:41.414 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/C:/Users/gusta/codenation/java-9/target/classes/
+15:32:41.418 [main] INFO org.reflections.Reflections - Reflections took 4 ms to scan 1 urls, producing 5 keys and 22 values 
+15:32:41.421 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/C:/Users/gusta/codenation/java-9/target/classes/
+15:32:41.426 [main] INFO org.reflections.Reflections - Reflections took 5 ms to scan 1 urls, producing 5 keys and 22 values 
+15:32:41.429 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/C:/Users/gusta/codenation/java-9/target/classes/
+15:32:41.434 [main] INFO org.reflections.Reflections - Reflections took 4 ms to scan 1 urls, producing 5 keys and 22 values 
+15:32:41.435 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/C:/Users/gusta/codenation/java-9/target/classes/
+15:32:41.440 [main] INFO org.reflections.Reflections - Reflections took 5 ms to scan 1 urls, producing 5 keys and 22 values 
+15:32:41.444 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/C:/Users/gusta/codenation/java-9/target/classes/
+15:32:41.449 [main] INFO org.reflections.Reflections - Reflections took 4 ms to scan 1 urls, producing 5 keys and 22 values 
+15:32:41.450 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/C:/Users/gusta/codenation/java-9/target/classes/
+15:32:41.454 [main] INFO org.reflections.Reflections - Reflections took 3 ms to scan 1 urls, producing 5 keys and 22 values 
+15:32:41.456 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/C:/Users/gusta/codenation/java-9/target/classes/
+15:32:41.459 [main] INFO org.reflections.Reflections - Reflections took 3 ms to scan 1 urls, producing 5 keys and 22 values 
+15:32:41.461 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/C:/Users/gusta/codenation/java-9/target/classes/
+15:32:41.464 [main] INFO org.reflections.Reflections - Reflections took 3 ms to scan 1 urls, producing 5 keys and 22 values 
+15:32:41.465 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/C:/Users/gusta/codenation/java-9/target/classes/
+15:32:41.467 [main] INFO org.reflections.Reflections - Reflections took 2 ms to scan 1 urls, producing 5 keys and 22 values 
+15:32:41.471 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/C:/Users/gusta/codenation/java-9/target/classes/
+15:32:41.474 [main] INFO org.reflections.Reflections - Reflections took 3 ms to scan 1 urls, producing 5 keys and 22 values 
+15:32:41.476 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/C:/Users/gusta/codenation/java-9/target/classes/
+15:32:41.480 [main] INFO org.reflections.Reflections - Reflections took 4 ms to scan 1 urls, producing 5 keys and 22 values 
+15:32:41.481 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/C:/Users/gusta/codenation/java-9/target/classes/
+15:32:41.484 [main] INFO org.reflections.Reflections - Reflections took 3 ms to scan 1 urls, producing 5 keys and 22 values 
+15:32:41.485 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/C:/Users/gusta/codenation/java-9/target/classes/
+15:32:41.490 [main] INFO org.reflections.Reflections - Reflections took 4 ms to scan 1 urls, producing 5 keys and 22 values 
+15:32:41.491 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/C:/Users/gusta/codenation/java-9/target/classes/
+15:32:41.501 [main] INFO org.reflections.Reflections - Reflections took 10 ms to scan 1 urls, producing 5 keys and 22 values 
+15:32:41.503 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/C:/Users/gusta/codenation/java-9/target/classes/
+15:32:41.507 [main] INFO org.reflections.Reflections - Reflections took 3 ms to scan 1 urls, producing 5 keys and 22 values 
+15:32:41.512 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/C:/Users/gusta/codenation/java-9/target/classes/
+15:32:41.517 [main] INFO org.reflections.Reflections - Reflections took 5 ms to scan 1 urls, producing 5 keys and 22 values 
+15:32:41.519 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/C:/Users/gusta/codenation/java-9/target/classes/
+15:32:41.523 [main] INFO org.reflections.Reflections - Reflections took 3 ms to scan 1 urls, producing 5 keys and 22 values 
+15:32:41.525 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/C:/Users/gusta/codenation/java-9/target/classes/
+15:32:41.529 [main] INFO org.reflections.Reflections - Reflections took 4 ms to scan 1 urls, producing 5 keys and 22 values 
+15:32:41.535 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/C:/Users/gusta/codenation/java-9/target/classes/
+15:32:41.540 [main] INFO org.reflections.Reflections - Reflections took 5 ms to scan 1 urls, producing 5 keys and 22 values 
+15:32:41.542 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/C:/Users/gusta/codenation/java-9/target/classes/
+15:32:41.546 [main] INFO org.reflections.Reflections - Reflections took 3 ms to scan 1 urls, producing 5 keys and 22 values 
+15:32:41.549 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/C:/Users/gusta/codenation/java-9/target/classes/
+15:32:41.553 [main] INFO org.reflections.Reflections - Reflections took 3 ms to scan 1 urls, producing 5 keys and 22 values 
+15:32:41.556 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/C:/Users/gusta/codenation/java-9/target/classes/
+15:32:41.560 [main] INFO org.reflections.Reflections - Reflections took 4 ms to scan 1 urls, producing 5 keys and 22 values 
+15:32:41.562 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/C:/Users/gusta/codenation/java-9/target/classes/
+15:32:41.565 [main] INFO org.reflections.Reflections - Reflections took 3 ms to scan 1 urls, producing 5 keys and 22 values 
+15:32:41.566 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/C:/Users/gusta/codenation/java-9/target/classes/
+15:32:41.569 [main] INFO org.reflections.Reflections - Reflections took 3 ms to scan 1 urls, producing 5 keys and 22 values 
+15:32:41.571 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/C:/Users/gusta/codenation/java-9/target/classes/
+15:32:41.574 [main] INFO org.reflections.Reflections - Reflections took 3 ms to scan 1 urls, producing 5 keys and 22 values 
+15:32:41.576 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/C:/Users/gusta/codenation/java-9/target/classes/
+15:32:41.579 [main] INFO org.reflections.Reflections - Reflections took 3 ms to scan 1 urls, producing 5 keys and 22 values 
+15:32:41.580 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/C:/Users/gusta/codenation/java-9/target/classes/
+15:32:41.583 [main] INFO org.reflections.Reflections - Reflections took 3 ms to scan 1 urls, producing 5 keys and 22 values 
+15:32:41.584 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/C:/Users/gusta/codenation/java-9/target/classes/
+15:32:41.588 [main] INFO org.reflections.Reflections - Reflections took 4 ms to scan 1 urls, producing 5 keys and 22 values 
+15:32:41.590 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/C:/Users/gusta/codenation/java-9/target/classes/
+15:32:41.593 [main] INFO org.reflections.Reflections - Reflections took 3 ms to scan 1 urls, producing 5 keys and 22 values 
+15:32:41.595 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/C:/Users/gusta/codenation/java-9/target/classes/
+15:32:41.597 [main] INFO org.reflections.Reflections - Reflections took 2 ms to scan 1 urls, producing 5 keys and 22 values 
+15:32:41.598 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/C:/Users/gusta/codenation/java-9/target/classes/
+15:32:41.601 [main] INFO org.reflections.Reflections - Reflections took 3 ms to scan 1 urls, producing 5 keys and 22 values 
+15:32:41.602 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/C:/Users/gusta/codenation/java-9/target/classes/
+15:32:41.604 [main] INFO org.reflections.Reflections - Reflections took 2 ms to scan 1 urls, producing 5 keys and 22 values 
+15:32:41.605 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/C:/Users/gusta/codenation/java-9/target/classes/
+15:32:41.608 [main] INFO org.reflections.Reflections - Reflections took 3 ms to scan 1 urls, producing 5 keys and 22 values 
+15:32:41.610 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/C:/Users/gusta/codenation/java-9/target/classes/
+15:32:41.612 [main] INFO org.reflections.Reflections - Reflections took 2 ms to scan 1 urls, producing 5 keys and 22 values 
+15:32:41.613 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/C:/Users/gusta/codenation/java-9/target/classes/
+15:32:41.616 [main] INFO org.reflections.Reflections - Reflections took 3 ms to scan 1 urls, producing 5 keys and 22 values 
+15:32:41.617 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/C:/Users/gusta/codenation/java-9/target/classes/
+15:32:41.619 [main] INFO org.reflections.Reflections - Reflections took 2 ms to scan 1 urls, producing 5 keys and 22 values 
+15:32:41.621 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/C:/Users/gusta/codenation/java-9/target/classes/
+15:32:41.623 [main] INFO org.reflections.Reflections - Reflections took 2 ms to scan 1 urls, producing 5 keys and 22 values 
+15:32:41.625 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/C:/Users/gusta/codenation/java-9/target/classes/
+15:32:41.628 [main] INFO org.reflections.Reflections - Reflections took 3 ms to scan 1 urls, producing 5 keys and 22 values 
+15:32:41.629 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/C:/Users/gusta/codenation/java-9/target/classes/
+15:32:41.633 [main] INFO org.reflections.Reflections - Reflections took 3 ms to scan 1 urls, producing 5 keys and 22 values 
+15:32:41.634 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/C:/Users/gusta/codenation/java-9/target/classes/
+15:32:41.638 [main] INFO org.reflections.Reflections - Reflections took 4 ms to scan 1 urls, producing 5 keys and 22 values 
+15:32:41.639 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/C:/Users/gusta/codenation/java-9/target/classes/
+15:32:41.643 [main] INFO org.reflections.Reflections - Reflections took 4 ms to scan 1 urls, producing 5 keys and 22 values 
+15:32:41.645 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/C:/Users/gusta/codenation/java-9/target/classes/
+15:32:41.648 [main] INFO org.reflections.Reflections - Reflections took 3 ms to scan 1 urls, producing 5 keys and 22 values 
+15:32:41.649 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/C:/Users/gusta/codenation/java-9/target/classes/
+15:32:41.651 [main] INFO org.reflections.Reflections - Reflections took 2 ms to scan 1 urls, producing 5 keys and 22 values 
+15:32:41.652 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/C:/Users/gusta/codenation/java-9/target/classes/
+15:32:41.655 [main] INFO org.reflections.Reflections - Reflections took 2 ms to scan 1 urls, producing 5 keys and 22 values 
+15:32:41.656 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/C:/Users/gusta/codenation/java-9/target/classes/
+15:32:41.658 [main] INFO org.reflections.Reflections - Reflections took 2 ms to scan 1 urls, producing 5 keys and 22 values 
+15:32:41.660 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/C:/Users/gusta/codenation/java-9/target/classes/
+15:32:41.662 [main] INFO org.reflections.Reflections - Reflections took 2 ms to scan 1 urls, producing 5 keys and 22 values 
+15:32:41.663 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/C:/Users/gusta/codenation/java-9/target/classes/
+15:32:41.666 [main] INFO org.reflections.Reflections - Reflections took 2 ms to scan 1 urls, producing 5 keys and 22 values 
+15:32:41.666 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/C:/Users/gusta/codenation/java-9/target/classes/
+15:32:41.669 [main] INFO org.reflections.Reflections - Reflections took 3 ms to scan 1 urls, producing 5 keys and 22 values 
+15:32:41.671 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/C:/Users/gusta/codenation/java-9/target/classes/
+15:32:41.674 [main] INFO org.reflections.Reflections - Reflections took 3 ms to scan 1 urls, producing 5 keys and 22 values 
+15:32:41.675 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/C:/Users/gusta/codenation/java-9/target/classes/
+15:32:41.676 [main] INFO org.reflections.Reflections - Reflections took 1 ms to scan 1 urls, producing 5 keys and 22 values 
+15:32:41.677 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/C:/Users/gusta/codenation/java-9/target/classes/
+15:32:41.680 [main] INFO org.reflections.Reflections - Reflections took 2 ms to scan 1 urls, producing 5 keys and 22 values 
+15:32:41.681 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/C:/Users/gusta/codenation/java-9/target/classes/
+15:32:41.683 [main] INFO org.reflections.Reflections - Reflections took 2 ms to scan 1 urls, producing 5 keys and 22 values 
+15:32:41.684 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/C:/Users/gusta/codenation/java-9/target/classes/
+15:32:41.686 [main] INFO org.reflections.Reflections - Reflections took 2 ms to scan 1 urls, producing 5 keys and 22 values 
+15:32:41.687 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/C:/Users/gusta/codenation/java-9/target/classes/
+15:32:41.691 [main] INFO org.reflections.Reflections - Reflections took 4 ms to scan 1 urls, producing 5 keys and 22 values 
+15:32:41.692 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/C:/Users/gusta/codenation/java-9/target/classes/
+15:32:41.694 [main] INFO org.reflections.Reflections - Reflections took 2 ms to scan 1 urls, producing 5 keys and 22 values 
+15:32:41.695 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/C:/Users/gusta/codenation/java-9/target/classes/
+15:32:41.697 [main] INFO org.reflections.Reflections - Reflections took 2 ms to scan 1 urls, producing 5 keys and 22 values 
+15:32:41.698 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/C:/Users/gusta/codenation/java-9/target/classes/
+15:32:41.700 [main] INFO org.reflections.Reflections - Reflections took 2 ms to scan 1 urls, producing 5 keys and 22 values 
+15:32:41.701 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/C:/Users/gusta/codenation/java-9/target/classes/
+15:32:41.704 [main] INFO org.reflections.Reflections - Reflections took 3 ms to scan 1 urls, producing 5 keys and 22 values 
+15:32:41.705 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/C:/Users/gusta/codenation/java-9/target/classes/
+15:32:41.709 [main] INFO org.reflections.Reflections - Reflections took 4 ms to scan 1 urls, producing 5 keys and 22 values 
+15:32:41.711 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/C:/Users/gusta/codenation/java-9/target/classes/
+15:32:41.714 [main] INFO org.reflections.Reflections - Reflections took 3 ms to scan 1 urls, producing 5 keys and 22 values 
+15:32:41.715 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/C:/Users/gusta/codenation/java-9/target/classes/
+15:32:41.717 [main] INFO org.reflections.Reflections - Reflections took 2 ms to scan 1 urls, producing 5 keys and 22 values 
+15:32:41.718 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/C:/Users/gusta/codenation/java-9/target/classes/
+15:32:41.721 [main] INFO org.reflections.Reflections - Reflections took 2 ms to scan 1 urls, producing 5 keys and 22 values 
+15:32:41.722 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/C:/Users/gusta/codenation/java-9/target/classes/
+15:32:41.725 [main] INFO org.reflections.Reflections - Reflections took 3 ms to scan 1 urls, producing 5 keys and 22 values 
+15:32:41.727 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/C:/Users/gusta/codenation/java-9/target/classes/
+15:32:41.731 [main] INFO org.reflections.Reflections - Reflections took 3 ms to scan 1 urls, producing 5 keys and 22 values 
+15:32:41.732 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/C:/Users/gusta/codenation/java-9/target/classes/
+15:32:41.734 [main] INFO org.reflections.Reflections - Reflections took 2 ms to scan 1 urls, producing 5 keys and 22 values 
+15:32:41.735 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/C:/Users/gusta/codenation/java-9/target/classes/
+15:32:41.738 [main] INFO org.reflections.Reflections - Reflections took 3 ms to scan 1 urls, producing 5 keys and 22 values 
+15:32:41.740 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/C:/Users/gusta/codenation/java-9/target/classes/
+15:32:41.746 [main] INFO org.reflections.Reflections - Reflections took 3 ms to scan 1 urls, producing 5 keys and 22 values 
+15:32:41.747 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/C:/Users/gusta/codenation/java-9/target/classes/
+15:32:41.750 [main] INFO org.reflections.Reflections - Reflections took 3 ms to scan 1 urls, producing 5 keys and 22 values 
+15:32:41.750 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/C:/Users/gusta/codenation/java-9/target/classes/
+15:32:41.754 [main] INFO org.reflections.Reflections - Reflections took 2 ms to scan 1 urls, producing 5 keys and 22 values 
+15:32:41.755 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/C:/Users/gusta/codenation/java-9/target/classes/
+15:32:41.757 [main] INFO org.reflections.Reflections - Reflections took 2 ms to scan 1 urls, producing 5 keys and 22 values 
+15:32:41.759 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/C:/Users/gusta/codenation/java-9/target/classes/
+15:32:41.762 [main] INFO org.reflections.Reflections - Reflections took 3 ms to scan 1 urls, producing 5 keys and 22 values 
+15:32:41.762 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/C:/Users/gusta/codenation/java-9/target/classes/
+15:32:41.764 [main] INFO org.reflections.Reflections - Reflections took 2 ms to scan 1 urls, producing 5 keys and 22 values 
+15:32:41.765 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/C:/Users/gusta/codenation/java-9/target/classes/
+15:32:41.767 [main] INFO org.reflections.Reflections - Reflections took 2 ms to scan 1 urls, producing 5 keys and 22 values 
+15:32:41.768 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/C:/Users/gusta/codenation/java-9/target/classes/
+15:32:41.770 [main] INFO org.reflections.Reflections - Reflections took 2 ms to scan 1 urls, producing 5 keys and 22 values 
+15:32:41.771 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/C:/Users/gusta/codenation/java-9/target/classes/
+15:32:41.773 [main] INFO org.reflections.Reflections - Reflections took 2 ms to scan 1 urls, producing 5 keys and 22 values 
+15:32:41.774 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/C:/Users/gusta/codenation/java-9/target/classes/
+15:32:41.777 [main] INFO org.reflections.Reflections - Reflections took 3 ms to scan 1 urls, producing 5 keys and 22 values 
+15:32:41.780 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/C:/Users/gusta/codenation/java-9/target/classes/
+15:32:41.783 [main] INFO org.reflections.Reflections - Reflections took 3 ms to scan 1 urls, producing 5 keys and 22 values 
+15:32:41.784 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/C:/Users/gusta/codenation/java-9/target/classes/
+15:32:41.788 [main] INFO org.reflections.Reflections - Reflections took 4 ms to scan 1 urls, producing 5 keys and 22 values 
+15:32:41.789 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/C:/Users/gusta/codenation/java-9/target/classes/
+15:32:41.792 [main] INFO org.reflections.Reflections - Reflections took 3 ms to scan 1 urls, producing 5 keys and 22 values 
+15:32:41.792 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/C:/Users/gusta/codenation/java-9/target/classes/
+15:32:41.794 [main] INFO org.reflections.Reflections - Reflections took 2 ms to scan 1 urls, producing 5 keys and 22 values 
+15:32:41.795 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/C:/Users/gusta/codenation/java-9/target/classes/
+15:32:41.797 [main] INFO org.reflections.Reflections - Reflections took 2 ms to scan 1 urls, producing 5 keys and 22 values 
+15:32:41.798 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/C:/Users/gusta/codenation/java-9/target/classes/
+15:32:41.800 [main] INFO org.reflections.Reflections - Reflections took 2 ms to scan 1 urls, producing 5 keys and 22 values 
+15:32:41.800 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/C:/Users/gusta/codenation/java-9/target/classes/
+15:32:41.803 [main] INFO org.reflections.Reflections - Reflections took 3 ms to scan 1 urls, producing 5 keys and 22 values 
+15:32:41.805 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/C:/Users/gusta/codenation/java-9/target/classes/
+15:32:41.807 [main] INFO org.reflections.Reflections - Reflections took 2 ms to scan 1 urls, producing 5 keys and 22 values 
+15:32:41.808 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/C:/Users/gusta/codenation/java-9/target/classes/
+15:32:41.810 [main] INFO org.reflections.Reflections - Reflections took 2 ms to scan 1 urls, producing 5 keys and 22 values 
+15:32:41.811 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/C:/Users/gusta/codenation/java-9/target/classes/
+15:32:41.813 [main] INFO org.reflections.Reflections - Reflections took 2 ms to scan 1 urls, producing 5 keys and 22 values 
+15:32:41.814 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/C:/Users/gusta/codenation/java-9/target/classes/
+15:32:41.816 [main] INFO org.reflections.Reflections - Reflections took 2 ms to scan 1 urls, producing 5 keys and 22 values 
+15:32:41.816 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/C:/Users/gusta/codenation/java-9/target/classes/
+15:32:41.818 [main] INFO org.reflections.Reflections - Reflections took 2 ms to scan 1 urls, producing 5 keys and 22 values 
+15:32:41.819 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/C:/Users/gusta/codenation/java-9/target/classes/
+15:32:41.822 [main] INFO org.reflections.Reflections - Reflections took 3 ms to scan 1 urls, producing 5 keys and 22 values 
+15:32:41.823 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/C:/Users/gusta/codenation/java-9/target/classes/
+15:32:41.826 [main] INFO org.reflections.Reflections - Reflections took 3 ms to scan 1 urls, producing 5 keys and 22 values 
+15:32:41.827 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/C:/Users/gusta/codenation/java-9/target/classes/
+15:32:41.829 [main] INFO org.reflections.Reflections - Reflections took 2 ms to scan 1 urls, producing 5 keys and 22 values 
+15:32:41.830 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/C:/Users/gusta/codenation/java-9/target/classes/
+15:32:41.832 [main] INFO org.reflections.Reflections - Reflections took 2 ms to scan 1 urls, producing 5 keys and 22 values 
+15:32:41.834 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/C:/Users/gusta/codenation/java-9/target/classes/
+15:32:41.836 [main] INFO org.reflections.Reflections - Reflections took 2 ms to scan 1 urls, producing 5 keys and 22 values 
+15:32:41.837 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/C:/Users/gusta/codenation/java-9/target/classes/
+15:32:41.839 [main] INFO org.reflections.Reflections - Reflections took 2 ms to scan 1 urls, producing 5 keys and 22 values 
+15:32:41.840 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/C:/Users/gusta/codenation/java-9/target/classes/
+15:32:41.843 [main] INFO org.reflections.Reflections - Reflections took 3 ms to scan 1 urls, producing 5 keys and 22 values 
+15:32:41.844 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/C:/Users/gusta/codenation/java-9/target/classes/
+15:32:41.846 [main] INFO org.reflections.Reflections - Reflections took 2 ms to scan 1 urls, producing 5 keys and 22 values 
+15:32:41.847 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/C:/Users/gusta/codenation/java-9/target/classes/
+15:32:41.849 [main] INFO org.reflections.Reflections - Reflections took 2 ms to scan 1 urls, producing 5 keys and 22 values 
+15:32:41.849 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/C:/Users/gusta/codenation/java-9/target/classes/
+15:32:41.852 [main] INFO org.reflections.Reflections - Reflections took 3 ms to scan 1 urls, producing 5 keys and 22 values 
+15:32:41.852 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/C:/Users/gusta/codenation/java-9/target/classes/
+15:32:41.855 [main] INFO org.reflections.Reflections - Reflections took 3 ms to scan 1 urls, producing 5 keys and 22 values 
+15:32:41.856 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/C:/Users/gusta/codenation/java-9/target/classes/
+15:32:41.859 [main] INFO org.reflections.Reflections - Reflections took 2 ms to scan 1 urls, producing 5 keys and 22 values 
+15:32:41.860 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/C:/Users/gusta/codenation/java-9/target/classes/
+15:32:41.862 [main] INFO org.reflections.Reflections - Reflections took 2 ms to scan 1 urls, producing 5 keys and 22 values 
+[INFO] Tests run: 102, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.741 s - in com.challenge.suite.ChallengeTestSuite
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 102, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  5.190 s
+[INFO] Finished at: 2020-04-21T15:32:42-03:00
+[INFO] ------------------------------------------------------------------------

@@ -1,15 +1,16 @@
 package com.challenge.entity;
 
+import lombok.Data;
+
 import javax.persistence.Embeddable;
 import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
 
 import java.io.Serializable;
 
+@Data
 @Embeddable
 public class CandidatePK implements Serializable {
-
-    private static final long serialVersionUID = 1L;
 
     @ManyToOne
     @JoinColumn(name = "user_id", nullable = false)
