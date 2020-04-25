@@ -13,5 +13,4 @@ public interface UserServiceInterface extends ServiceInterface<User> {
 
     List<User> findByCompanyId(Long companyId);
 
-
 }

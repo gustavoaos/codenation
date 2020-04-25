@@ -9,6 +9,8 @@ public interface AccelerationServiceInterface extends ServiceInterface<Accelerat
 
     Optional<Acceleration> findById(Long id);
 
+    Optional<Acceleration> findByName(String name);
+
     List<Acceleration> findByCompanyId(Long companyId);
 
 }
