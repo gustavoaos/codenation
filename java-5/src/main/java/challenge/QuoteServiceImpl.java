@@ -6,6 +6,8 @@ import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.stereotype.Service;
 
+import java.util.Optional;
+
 @Service
 public class QuoteServiceImpl implements QuoteService {
 
@@ -14,21 +16,21 @@ public class QuoteServiceImpl implements QuoteService {
 
 	// https://stackoverflow.com/questions/24279186/fetch-random-records-using-spring-data-jpa/25149491
 	@Override
-	public Quote getQuote() {
+	public Optional<Quote> getQuote() {
 		int idx = this.generateRandomIdx(this.repository.count());
 
 		Page<Quote> page = this.repository.findAll(PageRequest.of(idx, 1));
-		Quote randomQuote = page.hasContent() ? page.getContent().get(0) : null;
+		Optional<Quote> randomQuote = page.hasContent() ? Optional.of(page.getContent().get(0)) : null;
 
 		return randomQuote;
 	}
 
 	@Override
-	public Quote getQuoteByActor(String actor) {
+	public Optional<Quote> getQuoteByActor(String actor) {
 		int idx = this.generateRandomIdx(this.repository.count(Example.of(new Quote(actor))));
 
 		Page<Quote> page = this.repository.findByActor(actor, PageRequest.of(idx, 1));
-		Quote randomQuote = page.hasContent() ? page.getContent().get(0) : null;
+		Optional<Quote> randomQuote = page.hasContent() ? Optional.of(page.getContent().get(0)) : null;
 
 		return randomQuote;
 	}

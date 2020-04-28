@@ -14,6 +14,8 @@ import org.springframework.http.MediaType;
 import org.springframework.test.context.junit4.SpringRunner;
 import org.springframework.test.web.servlet.MockMvc;
 
+import java.util.Optional;
+
 @RunWith(SpringRunner.class)
 @WebMvcTest(QuoteController.class)
 public class QuoteControllerTest {
@@ -31,7 +33,7 @@ public class QuoteControllerTest {
 		quote.setActor("ACTOR_TEST");
 		quote.setQuote("QUOTE_TEST");
 		
-		given(service.getQuote()).willReturn(quote);
+		given(service.getQuote()).willReturn(Optional.of(quote));
 		
 		mvc.perform(get("/v1/quote")
 	               .accept(MediaType.APPLICATION_JSON))
@@ -48,7 +50,7 @@ public class QuoteControllerTest {
 		quote.setActor(actor);
 		quote.setQuote("QUOTE_TEST");
 		
-		given(service.getQuoteByActor(actor)).willReturn(quote);
+		given(service.getQuoteByActor(actor)).willReturn(Optional.of(quote));
 		
 		mvc.perform(get("/v1/quote/" + actor)
 	               .accept(MediaType.APPLICATION_JSON))

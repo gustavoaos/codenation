@@ -15,6 +15,12 @@ public class QuoteDTO {
         this.actor = actor;
     }
 
+    public QuoteDTO(Quote quote) {
+        this.id = quote.getId();
+        this.quote = quote.getQuote();
+        this.actor = quote.getActor();
+    }
+
     public int getId() {
         return this.id;
     }
