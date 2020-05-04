@@ -1,6 +1,5 @@
 package com.github.gustavoaos.logviewer.controller;
 
-import com.fasterxml.jackson.datatype.jsr310.deser.LocalDateTimeDeserializer;
 import com.github.gustavoaos.logviewer.dto.LogViewerDTO;
 import com.github.gustavoaos.logviewer.mapper.LogViewerMapper;
 import com.github.gustavoaos.logviewer.model.Level;
@@ -25,7 +24,6 @@ import javax.validation.Valid;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.List;
-import java.util.Optional;
 
 @RestController
 @RequestMapping("v1/logViewer")
