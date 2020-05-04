@@ -1,14 +1,14 @@
 INSERT INTO user
 VALUES
-('1', '2020-05-03 17:11', 'codenation@codenation.com', 'codenation123');
+('1', '2020-05-03 17:11', 'codenation@codenation.com', 'codenation', 'codenation123');
 
 INSERT INTO log_viewer
 VALUES
-('1', '2020-05-03 00:38', '2020-05-03 00:38', 'ERROR DESCRIPTION', 'ERROR', 'ERROR LOG', 1, 1);
+('1', '2020-05-03 00:38', '2020-05-03 00:38', 'ERROR DESCRIPTION', 'ERROR', 'ERROR LOG', 3, 1);
 
 INSERT INTO log_viewer
 VALUES
-('4', '2020-05-03 14:46', '2020-05-03 14:46', 'ERROR DESCRIPTION', 'ERROR', 'ERROR LOG', 2, 1);
+('4', '2020-05-03 14:46', '2020-05-03 14:46', 'ERROR DESCRIPTION', 'ERROR', 'ERROR LOG', 1, 1);
 
 INSERT INTO log_viewer
 VALUES

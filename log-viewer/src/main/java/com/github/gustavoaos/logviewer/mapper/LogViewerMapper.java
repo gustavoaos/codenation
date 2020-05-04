@@ -15,7 +15,7 @@ public interface LogViewerMapper {
         @Mapping(source = "id", target = "id"),
         @Mapping(source = "level", target = "level"),
         @Mapping(source = "description", target = "description"),
-        @Mapping(source = "user.email", target = "origin"),
+        @Mapping(source = "user.name", target = "origin"),
         @Mapping(source = "quantity", target = "quantity"),
         @Mapping(source = "createdAt", target = "createdAt", dateFormat = "yyyy-MM-dd HH:mm")
     })
