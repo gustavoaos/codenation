@@ -1,5 +1,7 @@
 package com.github.gustavoaos.logviewer.model;
 
+import com.fasterxml.jackson.annotation.JsonFormat;
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -17,8 +19,10 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.ManyToOne;
 import javax.persistence.Table;
+import javax.validation.constraints.Min;
 import javax.validation.constraints.NotEmpty;
 import javax.validation.constraints.NotNull;
+import javax.validation.constraints.Positive;
 
 import java.time.LocalDateTime;
 
@@ -46,16 +50,19 @@ public class LogViewer {
     private String log;
 
     @ManyToOne
+    @JsonIgnore
     private User user;
 
     @NotNull
+    @JsonFormat(pattern = "yyyy-MM-dd HH:mm")
     private LocalDateTime date;
 
-    @NotNull
+    @Min(1)
+    @Positive
     private Integer quantity;
 
-    @NotNull
     @CreatedDate
+    @JsonFormat(pattern = "yyyy-MM-dd HH:mm")
     @Column(name = "created_at", nullable = false, updatable = false)
     private LocalDateTime createdAt;
     

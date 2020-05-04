@@ -1,5 +1,7 @@
 package com.github.gustavoaos.logviewer.model;
 
+import com.fasterxml.jackson.annotation.JsonFormat;
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -42,11 +44,12 @@ public class User {
     @Size(max = 255)
     private String password;
 
-    @NotNull
     @CreatedDate
+    @JsonFormat(pattern = "yyyy-MM-dd HH:mm")
     @Column(name = "created_at", nullable = false, updatable = false)
     private LocalDateTime createdAt;
 
+    @JsonIgnore
     @OneToMany(mappedBy = "user")
     private List<LogViewer> logs;
     
