@@ -6,8 +6,6 @@ Desenvolvimento de uma API REST para centralização de registros de logs de apl
 
 *Aplicação desenvolvida seguindo as diretrizes propostas no projeto prático da Aceleração*
 
-
-
 ## Tecnologia
 
 - [Java](https://www.oracle.com/technetwork/java/javase/downloads/index.html) ```1.8```
