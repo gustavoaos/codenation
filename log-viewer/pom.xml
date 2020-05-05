@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.github.gustavoaos</groupId>
 	<artifactId>log-viewer</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0.0</version>
 	<name>log-viewer</name>
 	<description>Projeto prático Central de Erros desenvolvido para a aceleração Java da Codenation</description>
 
