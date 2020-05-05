@@ -1,9 +1,0 @@
-.gradle
-/build/
-
-bin/
-.settings/
-.project
-.classpath
-
-.DS_Store
