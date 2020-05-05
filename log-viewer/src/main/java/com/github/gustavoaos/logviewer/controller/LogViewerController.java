@@ -5,6 +5,11 @@ import com.github.gustavoaos.logviewer.mapper.LogViewerMapper;
 import com.github.gustavoaos.logviewer.model.Level;
 import com.github.gustavoaos.logviewer.model.LogViewer;
 import com.github.gustavoaos.logviewer.service.LogViewerService;
+import io.swagger.annotations.Api;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiOperation;
+import io.swagger.annotations.ApiResponse;
+import io.swagger.annotations.ApiResponses;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Sort;
@@ -27,6 +32,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("v1/logViewer")
+@Api(tags = { "LogViewer" }, description = "Everything about your Logs")
 public class LogViewerController {
 
     private final String DEFAULT_PAGE_SIZE = "2";
@@ -38,6 +44,10 @@ public class LogViewerController {
     @Autowired
     private LogViewerMapper mapper;
     
+    @ApiOperation("Creates a new Log")
+    @ApiResponses(value = {
+        @ApiResponse(code = 201, message = "successful operation")
+    })
     @PostMapping(value = "", produces = MediaType.APPLICATION_JSON_VALUE)
     public ResponseEntity<LogViewer> create(@Valid @RequestBody LogViewer logViewer) {
         return new ResponseEntity<LogViewer>(
@@ -45,6 +55,10 @@ public class LogViewerController {
             HttpStatus.CREATED);
     }
 
+    @ApiOperation("Find Log by ID")
+    @ApiResponses(value = {
+        @ApiResponse(code = 200, message = "successful operation")
+    })
     @GetMapping(value = "/{id}", produces = MediaType.APPLICATION_JSON_VALUE)
     public ResponseEntity<LogViewer> findById(@PathVariable("id") Long id) {
         return new ResponseEntity<LogViewer>(
@@ -53,6 +67,10 @@ public class LogViewerController {
             HttpStatus.OK);
     }
 
+    @ApiOperation("Finds Logs")
+    @ApiResponses(value = {
+        @ApiResponse(code = 200, message = "successful operation")
+    })
     @GetMapping(value = "", produces = MediaType.APPLICATION_JSON_VALUE)
     public List<LogViewerDTO> findAll(
             @RequestParam(defaultValue = DEFAULT_PAGE, name = "page") Integer pageNo,
@@ -64,6 +82,10 @@ public class LogViewerController {
         return this.mapper.map(this.service.findAll(PageRequest.of(pageNo, pageSize, sort)).getContent());
     }
 
+    @ApiOperation("Finds Logs by level")
+    @ApiResponses(value = {
+        @ApiResponse(code = 200, message = "successful operation")
+    })
     @GetMapping(value = "/level/{level}", produces = MediaType.APPLICATION_JSON_VALUE)
     public List<LogViewerDTO> findByLevel(
             @PathVariable("level") Level level,
@@ -76,6 +98,10 @@ public class LogViewerController {
         return this.mapper.map(this.service.findByLevel(level, PageRequest.of(pageNo, pageSize, sort)).getContent());
     }
 
+    @ApiOperation("Finds Logs by description")
+    @ApiResponses(value = {
+        @ApiResponse(code = 200, message = "successful operation")
+    })
     @GetMapping(value = "/description/{description}", produces = MediaType.APPLICATION_JSON_VALUE)
     public List<LogViewerDTO> findByDescription(
             @PathVariable("description") String description,
@@ -88,6 +114,10 @@ public class LogViewerController {
         return this.mapper.map(this.service.findByDescription(description, PageRequest.of(pageNo, pageSize, sort)).getContent());
     }
 
+    @ApiOperation("Finds Logs by origin")
+    @ApiResponses(value = {
+        @ApiResponse(code = 200, message = "successful operation")
+    })
     @GetMapping(value = "/origin/{origin}", produces = MediaType.APPLICATION_JSON_VALUE)
     public List<LogViewerDTO> findByOrigin(
             @PathVariable("origin") String origin,
@@ -100,6 +130,10 @@ public class LogViewerController {
         return this.mapper.map(this.service.findByUserName(origin, PageRequest.of(pageNo, pageSize, sort)).getContent());
     }
 
+    @ApiOperation("Finds Logs by date")
+    @ApiResponses(value = {
+        @ApiResponse(code = 200, message = "successful operation")
+    })
     @GetMapping(value = "/date/{date}", produces = MediaType.APPLICATION_JSON_VALUE)
     public List<LogViewerDTO> findByDate(
             @PathVariable("date") String date,
@@ -114,6 +148,10 @@ public class LogViewerController {
         return this.mapper.map(this.service.findByDate(localDateTime, PageRequest.of(pageNo, pageSize, sort)).getContent());
     }
 
+    @ApiOperation("Finds Logs by quantity")
+    @ApiResponses(value = {
+        @ApiResponse(code = 200, message = "successful operation")
+    })
     @GetMapping(value = "/quantity/{quantity}", produces = MediaType.APPLICATION_JSON_VALUE)
     public List<LogViewerDTO> findByQuantity(
             @PathVariable("quantity") Integer quantity,

@@ -20,4 +20,5 @@ public class ResourceServerConfig extends ResourceServerConfigurerAdapter {
             .antMatchers(HttpMethod.POST, "/v1/logViewer")
                 .authenticated();
     }
+    
 }
